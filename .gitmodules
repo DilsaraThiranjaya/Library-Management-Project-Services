@@ -1,0 +1,9 @@
+[submodule "Library-Management-Project-Service-Book"]
+	path = Library-Management-Project-Service-Book
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Service-Book.git
+[submodule "Library-Management-Project-Service-Member"]
+	path = Library-Management-Project-Service-Member
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Service-Member.git
+[submodule "Library-Management-Project-Service-File"]
+	path = Library-Management-Project-Service-File
+	url = https://github.com/DilsaraThiranjaya/Library-Management-Project-Service-File.git
