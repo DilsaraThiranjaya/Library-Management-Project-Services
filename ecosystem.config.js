@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'book-service',
       script: 'java',
-      args: '-jar Library-Management-Project-Service-Book/target/book-service-1.0.0.jar',
+      args: '-jar book-service/target/book-service-1.0.0.jar',
       instances: 1,
       autorestart: true,
       max_memory_restart: '1G'
@@ -11,7 +11,7 @@ module.exports = {
     {
       name: 'member-service',
       script: 'java',
-      args: '-jar Library-Management-Project-Service-Member/target/member-service-1.0.0.jar',
+      args: '-jar member-service/target/member-service-1.0.0.jar',
       instances: 1,
       autorestart: true,
       max_memory_restart: '1G'
@@ -19,7 +19,7 @@ module.exports = {
     {
       name: 'file-service',
       script: 'java',
-      args: '-jar Library-Management-Project-Service-File/target/file-service-1.0.0.jar',
+      args: '-jar file-service/target/file-service-1.0.0.jar',
       instances: 1,
       autorestart: true,
       max_memory_restart: '1G'
